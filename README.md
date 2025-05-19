@@ -4,14 +4,13 @@
 This project is a MySQL-based Instagram database clone, developed as part of The Ultimate MySQL Bootcamp: Go from SQL Beginner to Expert by Colt Steele and Ian Schoonover on Udemy. It replicates Instagram’s core functionalities through a robust schema design for users, photos, comments, likes, follows, tags, and photo tags, with optimized queries for data analysis and foreign key constraints for data integrity. The project includes sample data and queries to analyze user behavior, posting patterns, and hashtag popularity.
 Features
 
-**Complete Schema: **Tables for users, photos, comments, likes, follows, tags, and photo_tags with primary keys, foreign keys, and composite keys.
+**Complete Schema:** Tables for users, photos, comments, likes, follows, tags, and photo_tags with primary keys, foreign keys, and composite keys.
 Sample Data: Pre-populated with 100 users, 257 photos, follows, tags, and photo tags for testing.
 Analytical Queries: Includes queries to find the oldest users, most popular registration days, inactive users, most-liked photos, average posts per user, top hashtags, and users who liked every photo.
 Data Integrity: Enforces unique constraints (e.g., usernames, tag names) and referential integrity via foreign keys.
 Real-World Simulation: Models social media interactions like posting, liking, commenting, following, and tagging.
 
 **Installation
-
 Prerequisites:**
 MySQL 8.x and MySQL Workbench (or another MySQL client).
 Basic SQL knowledge.
